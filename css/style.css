@@ -1522,3 +1522,7 @@ background-image: url("images/index/Capture3.png")
 .abtimg{
 	width: 100%;
 }
+.conthead{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
