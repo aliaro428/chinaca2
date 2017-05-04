@@ -376,13 +376,17 @@ textarea:focus {
 #main-nav .navbar-right li > a:focus {
 	color: #d21034;
     background: none;
+	
     outline: none;
 }
-
+#main-nav .navbar-nav>li>a:hover{
+border-right: 1px solid #d21034;
+}
 #main-nav .navbar-nav>li>a:hover,
 #main-nav .navbar-nav>li.active>a {
 	color: #d21034;
     background: none;
+
 }
 
 /*Search Form*/
@@ -1494,6 +1498,7 @@ textarea:focus {
 .abthead{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
+	font-weight: bold;
 }
 .tagline{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1501,7 +1506,9 @@ textarea:focus {
 	color: #d21034;
 }
 .vis{   
-    font-weight: bold
+    font-weight: bold;
+	Color:#d21034;
+	text-align: center;
 	}
 #vision{
 background-image: url("images/index/Capture3.png")
@@ -1511,4 +1518,7 @@ background-image: url("images/index/Capture3.png")
 }
 .vispara{
 	text-align: justify
+}
+.abtimg{
+	width: 100%;
 }
