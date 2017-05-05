@@ -367,7 +367,7 @@ textarea:focus {
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 30px;
-	color: #555;
+	color: papayawhip;
 	padding-top: 0;
 	padding-bottom: 0;
 	text-transform: uppercase;
@@ -1525,4 +1525,14 @@ background-image: url("images/index/Capture3.png")
 .conthead{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+.relbox{
+	width:20%;
+	margin:1%;
+	border: 2px solid #d21034;
+	text-align: center;
+	font-weight: bold;
+}
+.citynam{
+	font-weight: bold;
 }
